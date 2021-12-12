@@ -7,21 +7,11 @@ body * {
     color: #000;
 }
 
-.grunge{
-    display:block;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    /*z-index: 10;
-    background-image: url(bg.jpg);
-    background-position: center;
-    background-size: 100%;*/
-}
 
 .brick1 {
     opacity: 0.6;
-    width: 200px;
-    height: 100px;
+    width: 15vw;
+    height: 7.5vw;
     background-color: rgb(65, 21, 21);
     color: rgb(65, 21, 21);
     text-align: center;
@@ -39,8 +29,8 @@ box-shadow: 0px 0px 48px 13px rgba(0,0,0,0.82);
 
 .brick2 {
     opacity: 0.6;
-    width: 210px;
-    height: 105px;
+    width: 16vw;
+    height: 8vw;
     background-color: rgb(65, 21, 21);
     color: rgb(65, 21, 21);
     text-align: center;
@@ -57,8 +47,8 @@ box-shadow: 0px 0px 48px 13px rgba(0,0,0,0.82);
 
 .brick3 {
     opacity: 0.6;
-    width: 220px;
-    height: 110px;
+    width: 14vw;
+    height: 7.5vw;
     background-color: rgb(65, 21, 21);
     color: rgb(65, 21, 21);
     text-align: center;
@@ -75,8 +65,8 @@ box-shadow: 0px 0px 48px 13px rgba(0,0,0,0.82);
 
 .brick4 {
     opacity: 0.6;
-    width: 190px;
-    height: 90px;
+    width: 16.5vw;
+    height: 7vw;
     background-color: rgb(65, 21, 21);
     color: rgb(65, 21, 21);
     text-align: center;
@@ -108,7 +98,7 @@ box-shadow: 0px 0px 48px 13px rgba(0,0,0,0.82);
     position: absolute;
     width: 500px;
     height: 500px;
-    background-color: rgba(226, 193, 46, 0.829);
+    background-color: rgba(226, 193, 46, 0.925);
     z-index: 10;
     -webkit-box-shadow: inset 0px 0px 150px 166px rgba(0,0,0,1);
     -moz-box-shadow: inset 0px 0px 150px 166px rgba(0,0,0,1);

@@ -1,14 +1,15 @@
 
 
-let maxWidth = window.innerWidth/225;
-let maxHeight = window.innerHeight/100;
 
-console.log(maxWidth);
-console.log(maxHeight);
 
-for (let i = 0; i < Math.floor(maxWidth)*(Math.floor(maxHeight)-1); i++) { 
+
+
+  for (let i = 0; i < 30; i++) { 
     addElement(i);
 }
+
+
+
 
 function getRandomInt(min, max) {
   min = Math.ceil(min);
