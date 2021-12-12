@@ -14,6 +14,7 @@ function getRandomInt(min, max) {
 function addElement(index) {
   let newSpan = document.createElement("span");
   newSpan.classList.add("brick"+getRandomInt(1,4));
+ 
   newSpan.setAttribute("id","id"+index);
   let container = document.getElementById('wrapper');
   
