@@ -1,5 +1,17 @@
-for (let i = 0; i < 30; i++) { 
-    addElement(i);
+let containers = document.getElementsByClassName('wrapper');
+
+for (let i = 0; i < containers.length; i++) { 
+    //addElement(i);
+    if(i == 0|i == 2| i == 4){
+      for(let j = 0; j<5; j++){
+        addElement(i,j);
+      }    
+    } else {
+      for(let j = 0; j<6; j++){
+        addElement(i,j);
+      }   
+    }
+    
 }
 
 
@@ -11,15 +23,11 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-function addElement(index) {
+function addElement(row,index) {
   let newSpan = document.createElement("span");
   newSpan.classList.add("brick"+getRandomInt(1,4));
- 
-  newSpan.setAttribute("id","id"+index);
-  let container = document.getElementById('wrapper');
-  
-    container.appendChild(newSpan);  
-  
+  newSpan.setAttribute("id","id"+row+"_"+index);
+  containers[row].appendChild(newSpan); 
 }
 
 //document.getElementById('id2').innerHTML += '2F';
